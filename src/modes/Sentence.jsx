@@ -70,7 +70,11 @@ const Sentence = () => {
     return targetWords.map((word, wIdx) => {
       const inputWord = inputWords[wIdx] || ""
       return (
-        <span key={wIdx} className="mr-2">
+        <span
+          key={wIdx}
+          className="mr-2 inline-block align-bottom"
+          style={{ whiteSpace: "pre" }} // Prevent word break
+        >
           {word.split("").map((char, cIdx) => {
             if (inputWord.length > cIdx) {
               return (
@@ -99,24 +103,30 @@ const Sentence = () => {
   }
 
   return (
-    <div className="relative w-full max-w-2xl mx-auto mt-8">
-      <div
-        className="whitespace-pre-wrap text-lg font-mono select-none"
-        style={{ position: "relative", zIndex: 1, minHeight: 80 }}
-        onClick={() => textareaRef.current && textareaRef.current.focus()}
-      >
-        {renderColoredText()}
+    <div className="relative w-full max-w-5xl mx-auto mt-8">
+
+      {/* container for The text area */}
+      <div className="relative w-full p-4 break-words overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full opacity-0" style={{ zIndex: 2, minHeight: 80 }}>
+          <textarea
+            ref={textareaRef}
+            value={input}
+            onChange={handleInput}
+            className="w-full h-full resize-none pointer-events-auto"
+            style={{ minHeight: 80 }}
+            spellCheck={false}
+            autoFocus
+          />
+        </div>
+        <div
+          className="text-lg font-mono select-none"
+          style={{ position: "relative", zIndex: 1, minHeight: 80, wordBreak: "normal", overflowWrap: "normal" }}
+          onClick={() => textareaRef.current && textareaRef.current.focus()}
+        >
+          {renderColoredText()}
+        </div>
       </div>
-      {/* Invisible textarea overlays the text */}
-      <textarea
-        ref={textareaRef}
-        value={input}
-        onChange={handleInput}
-        className="absolute top-0 left-0 w-full h-full opacity-0 resize-none"
-        style={{ zIndex: 2, minHeight: 80 }}
-        spellCheck={false}
-        autoFocus
-      />
+
       <div className="mt-6 flex gap-8 text-lg">
         <div>
           WPM:{" "}
