@@ -1,0 +1,3608 @@
+{
+    "beginner": [
+        {
+            "id": 0,
+            "text": "island",
+            "length": 6,
+            "difficulty": 0.23
+        },
+        {
+            "id": 1,
+            "text": "valley",
+            "length": 6,
+            "difficulty": 0.15
+        },
+        {
+            "id": 2,
+            "text": "quantum",
+            "length": 7,
+            "difficulty": 0.11
+        },
+        {
+            "id": 3,
+            "text": "elderberry",
+            "length": 10,
+            "difficulty": 0.16
+        },
+        {
+            "id": 4,
+            "text": "lemon",
+            "length": 5,
+            "difficulty": 0.15
+        },
+        {
+            "id": 5,
+            "text": "kinetic",
+            "length": 7,
+            "difficulty": 0.18
+        },
+        {
+            "id": 6,
+            "text": "gesture",
+            "length": 7,
+            "difficulty": 0.1
+        },
+        {
+            "id": 7,
+            "text": "vibrate",
+            "length": 7,
+            "difficulty": 0.18
+        },
+        {
+            "id": 8,
+            "text": "garden",
+            "length": 6,
+            "difficulty": 0.1
+        },
+        {
+            "id": 9,
+            "text": "xigua",
+            "length": 5,
+            "difficulty": 0.24
+        },
+        {
+            "id": 10,
+            "text": "theorem",
+            "length": 7,
+            "difficulty": 0.11
+        },
+        {
+            "id": 11,
+            "text": "precise",
+            "length": 7,
+            "difficulty": 0.22
+        },
+        {
+            "id": 12,
+            "text": "compile",
+            "length": 7,
+            "difficulty": 0.16
+        },
+        {
+            "id": 13,
+            "text": "harbor",
+            "length": 6,
+            "difficulty": 0.1
+        },
+        {
+            "id": 14,
+            "text": "yogurt",
+            "length": 6,
+            "difficulty": 0.15
+        },
+        {
+            "id": 15,
+            "text": "elderberry",
+            "length": 10,
+            "difficulty": 0.25
+        },
+        {
+            "id": 16,
+            "text": "yogurt",
+            "length": 6,
+            "difficulty": 0.1
+        },
+        {
+            "id": 17,
+            "text": "bridge",
+            "length": 6,
+            "difficulty": 0.22
+        },
+        {
+            "id": 18,
+            "text": "fig",
+            "length": 3,
+            "difficulty": 0.24
+        },
+        {
+            "id": 19,
+            "text": "vanilla",
+            "length": 7,
+            "difficulty": 0.29
+        },
+        {
+            "id": 20,
+            "text": "compile",
+            "length": 7,
+            "difficulty": 0.11
+        },
+        {
+            "id": 21,
+            "text": "cherry",
+            "length": 6,
+            "difficulty": 0.28
+        },
+        {
+            "id": 22,
+            "text": "zucchini",
+            "length": 8,
+            "difficulty": 0.29
+        },
+        {
+            "id": 23,
+            "text": "install",
+            "length": 7,
+            "difficulty": 0.29
+        },
+        {
+            "id": 24,
+            "text": "cherry",
+            "length": 6,
+            "difficulty": 0.1
+        },
+        {
+            "id": 25,
+            "text": "ocean",
+            "length": 5,
+            "difficulty": 0.27
+        },
+        {
+            "id": 26,
+            "text": "justice",
+            "length": 7,
+            "difficulty": 0.2
+        },
+        {
+            "id": 27,
+            "text": "island",
+            "length": 6,
+            "difficulty": 0.16
+        },
+        {
+            "id": 28,
+            "text": "vanilla",
+            "length": 7,
+            "difficulty": 0.17
+        },
+        {
+            "id": 29,
+            "text": "sustain",
+            "length": 7,
+            "difficulty": 0.16
+        },
+        {
+            "id": 30,
+            "text": "watermelon",
+            "length": 10,
+            "difficulty": 0.26
+        },
+        {
+            "id": 31,
+            "text": "river",
+            "length": 5,
+            "difficulty": 0.12
+        },
+        {
+            "id": 32,
+            "text": "zephyr",
+            "length": 6,
+            "difficulty": 0.26
+        },
+        {
+            "id": 33,
+            "text": "honeydew",
+            "length": 8,
+            "difficulty": 0.19
+        },
+        {
+            "id": 34,
+            "text": "observe",
+            "length": 7,
+            "difficulty": 0.18
+        },
+        {
+            "id": 35,
+            "text": "install",
+            "length": 7,
+            "difficulty": 0.12
+        },
+        {
+            "id": 36,
+            "text": "unicorn",
+            "length": 7,
+            "difficulty": 0.18
+        },
+        {
+            "id": 37,
+            "text": "honeydew",
+            "length": 8,
+            "difficulty": 0.2
+        },
+        {
+            "id": 38,
+            "text": "prairie",
+            "length": 7,
+            "difficulty": 0.19
+        },
+        {
+            "id": 39,
+            "text": "xenial",
+            "length": 6,
+            "difficulty": 0.21
+        },
+        {
+            "id": 40,
+            "text": "savanna",
+            "length": 7,
+            "difficulty": 0.1
+        },
+        {
+            "id": 41,
+            "text": "yogurt",
+            "length": 6,
+            "difficulty": 0.23
+        },
+        {
+            "id": 42,
+            "text": "anchor",
+            "length": 6,
+            "difficulty": 0.11
+        },
+        {
+            "id": 43,
+            "text": "anchor",
+            "length": 6,
+            "difficulty": 0.28
+        },
+        {
+            "id": 44,
+            "text": "yielded",
+            "length": 7,
+            "difficulty": 0.1
+        },
+        {
+            "id": 45,
+            "text": "xenial",
+            "length": 6,
+            "difficulty": 0.17
+        },
+        {
+            "id": 46,
+            "text": "logical",
+            "length": 7,
+            "difficulty": 0.27
+        },
+        {
+            "id": 47,
+            "text": "feature",
+            "length": 7,
+            "difficulty": 0.27
+        },
+        {
+            "id": 48,
+            "text": "temple",
+            "length": 6,
+            "difficulty": 0.29
+        },
+        {
+            "id": 49,
+            "text": "temple",
+            "length": 6,
+            "difficulty": 0.24
+        },
+        {
+            "id": 50,
+            "text": "compile",
+            "length": 7,
+            "difficulty": 0.12
+        },
+        {
+            "id": 51,
+            "text": "theorem",
+            "length": 7,
+            "difficulty": 0.25
+        },
+        {
+            "id": 52,
+            "text": "harbor",
+            "length": 6,
+            "difficulty": 0.2
+        },
+        {
+            "id": 53,
+            "text": "zealots",
+            "length": 7,
+            "difficulty": 0.28
+        },
+        {
+            "id": 54,
+            "text": "castle",
+            "length": 6,
+            "difficulty": 0.17
+        },
+        {
+            "id": 55,
+            "text": "compile",
+            "length": 7,
+            "difficulty": 0.17
+        },
+        {
+            "id": 56,
+            "text": "island",
+            "length": 6,
+            "difficulty": 0.11
+        },
+        {
+            "id": 57,
+            "text": "castle",
+            "length": 6,
+            "difficulty": 0.23
+        },
+        {
+            "id": 58,
+            "text": "apple",
+            "length": 5,
+            "difficulty": 0.19
+        },
+        {
+            "id": 59,
+            "text": "cherry",
+            "length": 6,
+            "difficulty": 0.18
+        },
+        {
+            "id": 60,
+            "text": "watermelon",
+            "length": 10,
+            "difficulty": 0.25
+        },
+        {
+            "id": 61,
+            "text": "xenial",
+            "length": 6,
+            "difficulty": 0.22
+        },
+        {
+            "id": 62,
+            "text": "xigua",
+            "length": 5,
+            "difficulty": 0.14
+        },
+        {
+            "id": 63,
+            "text": "kingdom",
+            "length": 7,
+            "difficulty": 0.29
+        },
+        {
+            "id": 64,
+            "text": "dynamic",
+            "length": 7,
+            "difficulty": 0.18
+        },
+        {
+            "id": 65,
+            "text": "zephyr",
+            "length": 6,
+            "difficulty": 0.12
+        },
+        {
+            "id": 66,
+            "text": "warrant",
+            "length": 7,
+            "difficulty": 0.16
+        },
+        {
+            "id": 67,
+            "text": "castle",
+            "length": 6,
+            "difficulty": 0.29
+        },
+        {
+            "id": 68,
+            "text": "nebula",
+            "length": 6,
+            "difficulty": 0.17
+        },
+        {
+            "id": 69,
+            "text": "ocean",
+            "length": 5,
+            "difficulty": 0.2
+        },
+        {
+            "id": 70,
+            "text": "yogurt",
+            "length": 6,
+            "difficulty": 0.19
+        },
+        {
+            "id": 71,
+            "text": "nebula",
+            "length": 6,
+            "difficulty": 0.25
+        },
+        {
+            "id": 72,
+            "text": "yogurt",
+            "length": 6,
+            "difficulty": 0.22
+        },
+        {
+            "id": 73,
+            "text": "garden",
+            "length": 6,
+            "difficulty": 0.18
+        },
+        {
+            "id": 74,
+            "text": "install",
+            "length": 7,
+            "difficulty": 0.29
+        },
+        {
+            "id": 75,
+            "text": "desert",
+            "length": 6,
+            "difficulty": 0.12
+        },
+        {
+            "id": 76,
+            "text": "library",
+            "length": 7,
+            "difficulty": 0.22
+        },
+        {
+            "id": 77,
+            "text": "unicorn",
+            "length": 7,
+            "difficulty": 0.12
+        },
+        {
+            "id": 78,
+            "text": "zealots",
+            "length": 7,
+            "difficulty": 0.29
+        },
+        {
+            "id": 79,
+            "text": "uncover",
+            "length": 7,
+            "difficulty": 0.14
+        },
+        {
+            "id": 80,
+            "text": "quince",
+            "length": 6,
+            "difficulty": 0.3
+        },
+        {
+            "id": 81,
+            "text": "date",
+            "length": 4,
+            "difficulty": 0.27
+        },
+        {
+            "id": 82,
+            "text": "quantum",
+            "length": 7,
+            "difficulty": 0.12
+        },
+        {
+            "id": 83,
+            "text": "nebula",
+            "length": 6,
+            "difficulty": 0.27
+        },
+        {
+            "id": 84,
+            "text": "neutral",
+            "length": 7,
+            "difficulty": 0.21
+        },
+        {
+            "id": 85,
+            "text": "magnet",
+            "length": 6,
+            "difficulty": 0.25
+        },
+        {
+            "id": 86,
+            "text": "wilderness",
+            "length": 10,
+            "difficulty": 0.19
+        },
+        {
+            "id": 87,
+            "text": "beneath",
+            "length": 7,
+            "difficulty": 0.24
+        },
+        {
+            "id": 88,
+            "text": "river",
+            "length": 5,
+            "difficulty": 0.27
+        },
+        {
+            "id": 89,
+            "text": "orange",
+            "length": 6,
+            "difficulty": 0.12
+        },
+        {
+            "id": 90,
+            "text": "justice",
+            "length": 7,
+            "difficulty": 0.25
+        },
+        {
+            "id": 91,
+            "text": "mountain",
+            "length": 8,
+            "difficulty": 0.19
+        },
+        {
+            "id": 92,
+            "text": "nectarine",
+            "length": 9,
+            "difficulty": 0.11
+        },
+        {
+            "id": 93,
+            "text": "mango",
+            "length": 5,
+            "difficulty": 0.11
+        },
+        {
+            "id": 94,
+            "text": "yam",
+            "length": 3,
+            "difficulty": 0.2
+        },
+        {
+            "id": 95,
+            "text": "bridge",
+            "length": 6,
+            "difficulty": 0.18
+        },
+        {
+            "id": 96,
+            "text": "zealots",
+            "length": 7,
+            "difficulty": 0.17
+        },
+        {
+            "id": 97,
+            "text": "jungle",
+            "length": 6,
+            "difficulty": 0.24
+        },
+        {
+            "id": 98,
+            "text": "mango",
+            "length": 5,
+            "difficulty": 0.18
+        },
+        {
+            "id": 99,
+            "text": "precise",
+            "length": 7,
+            "difficulty": 0.3
+        },
+        {
+            "id": 100,
+            "text": "logical",
+            "length": 7,
+            "difficulty": 0.21
+        },
+        {
+            "id": 101,
+            "text": "library",
+            "length": 7,
+            "difficulty": 0.26
+        },
+        {
+            "id": 102,
+            "text": "kiwi",
+            "length": 4,
+            "difficulty": 0.25
+        },
+        {
+            "id": 103,
+            "text": "feature",
+            "length": 7,
+            "difficulty": 0.19
+        },
+        {
+            "id": 104,
+            "text": "observe",
+            "length": 7,
+            "difficulty": 0.22
+        },
+        {
+            "id": 105,
+            "text": "compile",
+            "length": 7,
+            "difficulty": 0.24
+        },
+        {
+            "id": 106,
+            "text": "install",
+            "length": 7,
+            "difficulty": 0.15
+        },
+        {
+            "id": 107,
+            "text": "nectarine",
+            "length": 9,
+            "difficulty": 0.17
+        },
+        {
+            "id": 108,
+            "text": "tangerine",
+            "length": 9,
+            "difficulty": 0.12
+        },
+        {
+            "id": 109,
+            "text": "castle",
+            "length": 6,
+            "difficulty": 0.15
+        },
+        {
+            "id": 110,
+            "text": "temple",
+            "length": 6,
+            "difficulty": 0.13
+        },
+        {
+            "id": 111,
+            "text": "grape",
+            "length": 5,
+            "difficulty": 0.17
+        },
+        {
+            "id": 112,
+            "text": "magnet",
+            "length": 6,
+            "difficulty": 0.17
+        },
+        {
+            "id": 113,
+            "text": "resolve",
+            "length": 7,
+            "difficulty": 0.22
+        },
+        {
+            "id": 114,
+            "text": "acquire",
+            "length": 7,
+            "difficulty": 0.14
+        },
+        {
+            "id": 115,
+            "text": "sustain",
+            "length": 7,
+            "difficulty": 0.14
+        },
+        {
+            "id": 116,
+            "text": "watermelon",
+            "length": 10,
+            "difficulty": 0.13
+        },
+        {
+            "id": 117,
+            "text": "ocean",
+            "length": 5,
+            "difficulty": 0.24
+        },
+        {
+            "id": 118,
+            "text": "enhance",
+            "length": 7,
+            "difficulty": 0.15
+        },
+        {
+            "id": 119,
+            "text": "nectarine",
+            "length": 9,
+            "difficulty": 0.21
+        },
+        {
+            "id": 120,
+            "text": "enhance",
+            "length": 7,
+            "difficulty": 0.16
+        },
+        {
+            "id": 121,
+            "text": "forest",
+            "length": 6,
+            "difficulty": 0.11
+        },
+        {
+            "id": 122,
+            "text": "strawberry",
+            "length": 10,
+            "difficulty": 0.14
+        },
+        {
+            "id": 123,
+            "text": "papaya",
+            "length": 6,
+            "difficulty": 0.27
+        },
+        {
+            "id": 124,
+            "text": "yogurt",
+            "length": 6,
+            "difficulty": 0.29
+        },
+        {
+            "id": 125,
+            "text": "kiwi",
+            "length": 4,
+            "difficulty": 0.16
+        },
+        {
+            "id": 126,
+            "text": "observe",
+            "length": 7,
+            "difficulty": 0.26
+        },
+        {
+            "id": 127,
+            "text": "unicorn",
+            "length": 7,
+            "difficulty": 0.18
+        },
+        {
+            "id": 128,
+            "text": "gesture",
+            "length": 7,
+            "difficulty": 0.21
+        },
+        {
+            "id": 129,
+            "text": "harbor",
+            "length": 6,
+            "difficulty": 0.1
+        },
+        {
+            "id": 130,
+            "text": "enhance",
+            "length": 7,
+            "difficulty": 0.12
+        },
+        {
+            "id": 131,
+            "text": "xenon",
+            "length": 5,
+            "difficulty": 0.14
+        },
+        {
+            "id": 132,
+            "text": "orange",
+            "length": 6,
+            "difficulty": 0.22
+        },
+        {
+            "id": 133,
+            "text": "ugli",
+            "length": 4,
+            "difficulty": 0.16
+        },
+        {
+            "id": 134,
+            "text": "lemon",
+            "length": 5,
+            "difficulty": 0.17
+        },
+        {
+            "id": 135,
+            "text": "valley",
+            "length": 6,
+            "difficulty": 0.21
+        },
+        {
+            "id": 136,
+            "text": "ocean",
+            "length": 5,
+            "difficulty": 0.14
+        },
+        {
+            "id": 137,
+            "text": "vanilla",
+            "length": 7,
+            "difficulty": 0.11
+        },
+        {
+            "id": 138,
+            "text": "lemon",
+            "length": 5,
+            "difficulty": 0.21
+        },
+        {
+            "id": 139,
+            "text": "vanilla",
+            "length": 7,
+            "difficulty": 0.18
+        },
+        {
+            "id": 140,
+            "text": "yielded",
+            "length": 7,
+            "difficulty": 0.25
+        },
+        {
+            "id": 141,
+            "text": "temple",
+            "length": 6,
+            "difficulty": 0.16
+        },
+        {
+            "id": 142,
+            "text": "enhance",
+            "length": 7,
+            "difficulty": 0.29
+        },
+        {
+            "id": 143,
+            "text": "yogurt",
+            "length": 6,
+            "difficulty": 0.22
+        },
+        {
+            "id": 144,
+            "text": "date",
+            "length": 4,
+            "difficulty": 0.21
+        },
+        {
+            "id": 145,
+            "text": "zephyr",
+            "length": 6,
+            "difficulty": 0.11
+        },
+        {
+            "id": 146,
+            "text": "gesture",
+            "length": 7,
+            "difficulty": 0.29
+        },
+        {
+            "id": 147,
+            "text": "sustain",
+            "length": 7,
+            "difficulty": 0.29
+        },
+        {
+            "id": 148,
+            "text": "logical",
+            "length": 7,
+            "difficulty": 0.2
+        },
+        {
+            "id": 149,
+            "text": "nectarine",
+            "length": 9,
+            "difficulty": 0.18
+        },
+        {
+            "id": 150,
+            "text": "xigua",
+            "length": 5,
+            "difficulty": 0.15
+        },
+        {
+            "id": 151,
+            "text": "justice",
+            "length": 7,
+            "difficulty": 0.26
+        },
+        {
+            "id": 152,
+            "text": "temple",
+            "length": 6,
+            "difficulty": 0.1
+        },
+        {
+            "id": 153,
+            "text": "vanilla",
+            "length": 7,
+            "difficulty": 0.21
+        },
+        {
+            "id": 154,
+            "text": "ugli",
+            "length": 4,
+            "difficulty": 0.26
+        },
+        {
+            "id": 155,
+            "text": "library",
+            "length": 7,
+            "difficulty": 0.21
+        },
+        {
+            "id": 156,
+            "text": "warrant",
+            "length": 7,
+            "difficulty": 0.19
+        },
+        {
+            "id": 157,
+            "text": "vibrate",
+            "length": 7,
+            "difficulty": 0.29
+        },
+        {
+            "id": 158,
+            "text": "garden",
+            "length": 6,
+            "difficulty": 0.14
+        },
+        {
+            "id": 159,
+            "text": "zephyr",
+            "length": 6,
+            "difficulty": 0.18
+        },
+        {
+            "id": 160,
+            "text": "quarry",
+            "length": 6,
+            "difficulty": 0.11
+        },
+        {
+            "id": 161,
+            "text": "kingdom",
+            "length": 7,
+            "difficulty": 0.24
+        },
+        {
+            "id": 162,
+            "text": "quantum",
+            "length": 7,
+            "difficulty": 0.26
+        },
+        {
+            "id": 163,
+            "text": "zealots",
+            "length": 7,
+            "difficulty": 0.24
+        },
+        {
+            "id": 164,
+            "text": "banana",
+            "length": 6,
+            "difficulty": 0.21
+        },
+        {
+            "id": 165,
+            "text": "harmony",
+            "length": 7,
+            "difficulty": 0.14
+        },
+        {
+            "id": 166,
+            "text": "install",
+            "length": 7,
+            "difficulty": 0.22
+        },
+        {
+            "id": 167,
+            "text": "gesture",
+            "length": 7,
+            "difficulty": 0.22
+        },
+        {
+            "id": 168,
+            "text": "banana",
+            "length": 6,
+            "difficulty": 0.24
+        },
+        {
+            "id": 169,
+            "text": "compile",
+            "length": 7,
+            "difficulty": 0.14
+        },
+        {
+            "id": 170,
+            "text": "fig",
+            "length": 3,
+            "difficulty": 0.26
+        },
+        {
+            "id": 171,
+            "text": "watermelon",
+            "length": 10,
+            "difficulty": 0.14
+        },
+        {
+            "id": 172,
+            "text": "anchor",
+            "length": 6,
+            "difficulty": 0.14
+        },
+        {
+            "id": 173,
+            "text": "yielded",
+            "length": 7,
+            "difficulty": 0.25
+        },
+        {
+            "id": 174,
+            "text": "forest",
+            "length": 6,
+            "difficulty": 0.28
+        },
+        {
+            "id": 175,
+            "text": "valley",
+            "length": 6,
+            "difficulty": 0.18
+        },
+        {
+            "id": 176,
+            "text": "savanna",
+            "length": 7,
+            "difficulty": 0.24
+        },
+        {
+            "id": 177,
+            "text": "logical",
+            "length": 7,
+            "difficulty": 0.24
+        },
+        {
+            "id": 178,
+            "text": "mountain",
+            "length": 8,
+            "difficulty": 0.12
+        },
+        {
+            "id": 179,
+            "text": "quarry",
+            "length": 6,
+            "difficulty": 0.12
+        },
+        {
+            "id": 180,
+            "text": "strawberry",
+            "length": 10,
+            "difficulty": 0.21
+        },
+        {
+            "id": 181,
+            "text": "dynamic",
+            "length": 7,
+            "difficulty": 0.14
+        },
+        {
+            "id": 182,
+            "text": "bridge",
+            "length": 6,
+            "difficulty": 0.2
+        },
+        {
+            "id": 183,
+            "text": "ugli",
+            "length": 4,
+            "difficulty": 0.13
+        },
+        {
+            "id": 184,
+            "text": "orange",
+            "length": 6,
+            "difficulty": 0.17
+        },
+        {
+            "id": 185,
+            "text": "magnet",
+            "length": 6,
+            "difficulty": 0.23
+        },
+        {
+            "id": 186,
+            "text": "beneath",
+            "length": 7,
+            "difficulty": 0.13
+        },
+        {
+            "id": 187,
+            "text": "sustain",
+            "length": 7,
+            "difficulty": 0.26
+        },
+        {
+            "id": 188,
+            "text": "yogurt",
+            "length": 6,
+            "difficulty": 0.25
+        },
+        {
+            "id": 189,
+            "text": "quantum",
+            "length": 7,
+            "difficulty": 0.1
+        },
+        {
+            "id": 190,
+            "text": "wilderness",
+            "length": 10,
+            "difficulty": 0.18
+        },
+        {
+            "id": 191,
+            "text": "kinetic",
+            "length": 7,
+            "difficulty": 0.21
+        },
+        {
+            "id": 192,
+            "text": "desert",
+            "length": 6,
+            "difficulty": 0.21
+        },
+        {
+            "id": 193,
+            "text": "watermelon",
+            "length": 10,
+            "difficulty": 0.25
+        },
+        {
+            "id": 194,
+            "text": "library",
+            "length": 7,
+            "difficulty": 0.13
+        },
+        {
+            "id": 195,
+            "text": "kingdom",
+            "length": 7,
+            "difficulty": 0.19
+        },
+        {
+            "id": 196,
+            "text": "ocean",
+            "length": 5,
+            "difficulty": 0.22
+        },
+        {
+            "id": 197,
+            "text": "banana",
+            "length": 6,
+            "difficulty": 0.27
+        },
+        {
+            "id": 198,
+            "text": "orange",
+            "length": 6,
+            "difficulty": 0.25
+        },
+        {
+            "id": 199,
+            "text": "xigua",
+            "length": 5,
+            "difficulty": 0.23
+        }
+    ],
+    "intermediate": [
+        {
+            "id": 200,
+            "text": "watermelon",
+            "length": 10,
+            "difficulty": 0.55
+        },
+        {
+            "id": 201,
+            "text": "valley",
+            "length": 6,
+            "difficulty": 0.54
+        },
+        {
+            "id": 202,
+            "text": "orange",
+            "length": 6,
+            "difficulty": 0.43
+        },
+        {
+            "id": 203,
+            "text": "quince",
+            "length": 6,
+            "difficulty": 0.57
+        },
+        {
+            "id": 204,
+            "text": "theorem",
+            "length": 7,
+            "difficulty": 0.45
+        },
+        {
+            "id": 205,
+            "text": "enhance",
+            "length": 7,
+            "difficulty": 0.57
+        },
+        {
+            "id": 206,
+            "text": "nectarine",
+            "length": 9,
+            "difficulty": 0.52
+        },
+        {
+            "id": 207,
+            "text": "quince",
+            "length": 6,
+            "difficulty": 0.54
+        },
+        {
+            "id": 208,
+            "text": "xenon",
+            "length": 5,
+            "difficulty": 0.42
+        },
+        {
+            "id": 209,
+            "text": "wilderness",
+            "length": 10,
+            "difficulty": 0.45
+        },
+        {
+            "id": 210,
+            "text": "harmony",
+            "length": 7,
+            "difficulty": 0.45
+        },
+        {
+            "id": 211,
+            "text": "precise",
+            "length": 7,
+            "difficulty": 0.49
+        },
+        {
+            "id": 212,
+            "text": "wilderness",
+            "length": 10,
+            "difficulty": 0.57
+        },
+        {
+            "id": 213,
+            "text": "desert",
+            "length": 6,
+            "difficulty": 0.52
+        },
+        {
+            "id": 214,
+            "text": "papaya",
+            "length": 6,
+            "difficulty": 0.54
+        },
+        {
+            "id": 215,
+            "text": "zealots",
+            "length": 7,
+            "difficulty": 0.47
+        },
+        {
+            "id": 216,
+            "text": "cherry",
+            "length": 6,
+            "difficulty": 0.47
+        },
+        {
+            "id": 217,
+            "text": "bridge",
+            "length": 6,
+            "difficulty": 0.4
+        },
+        {
+            "id": 218,
+            "text": "strawberry",
+            "length": 10,
+            "difficulty": 0.42
+        },
+        {
+            "id": 219,
+            "text": "acquire",
+            "length": 7,
+            "difficulty": 0.47
+        },
+        {
+            "id": 220,
+            "text": "raspberry",
+            "length": 9,
+            "difficulty": 0.49
+        },
+        {
+            "id": 221,
+            "text": "logical",
+            "length": 7,
+            "difficulty": 0.53
+        },
+        {
+            "id": 222,
+            "text": "magnet",
+            "length": 6,
+            "difficulty": 0.55
+        },
+        {
+            "id": 223,
+            "text": "xenial",
+            "length": 6,
+            "difficulty": 0.55
+        },
+        {
+            "id": 224,
+            "text": "anchor",
+            "length": 6,
+            "difficulty": 0.45
+        },
+        {
+            "id": 225,
+            "text": "anchor",
+            "length": 6,
+            "difficulty": 0.45
+        },
+        {
+            "id": 226,
+            "text": "apple",
+            "length": 5,
+            "difficulty": 0.58
+        },
+        {
+            "id": 227,
+            "text": "yam",
+            "length": 3,
+            "difficulty": 0.41
+        },
+        {
+            "id": 228,
+            "text": "bridge",
+            "length": 6,
+            "difficulty": 0.43
+        },
+        {
+            "id": 229,
+            "text": "grape",
+            "length": 5,
+            "difficulty": 0.57
+        },
+        {
+            "id": 230,
+            "text": "jungle",
+            "length": 6,
+            "difficulty": 0.46
+        },
+        {
+            "id": 231,
+            "text": "ugli",
+            "length": 4,
+            "difficulty": 0.52
+        },
+        {
+            "id": 232,
+            "text": "sustain",
+            "length": 7,
+            "difficulty": 0.6
+        },
+        {
+            "id": 233,
+            "text": "mango",
+            "length": 5,
+            "difficulty": 0.58
+        },
+        {
+            "id": 234,
+            "text": "warrant",
+            "length": 7,
+            "difficulty": 0.6
+        },
+        {
+            "id": 235,
+            "text": "unicorn",
+            "length": 7,
+            "difficulty": 0.42
+        },
+        {
+            "id": 236,
+            "text": "nectarine",
+            "length": 9,
+            "difficulty": 0.47
+        },
+        {
+            "id": 237,
+            "text": "acquire",
+            "length": 7,
+            "difficulty": 0.44
+        },
+        {
+            "id": 238,
+            "text": "prairie",
+            "length": 7,
+            "difficulty": 0.48
+        },
+        {
+            "id": 239,
+            "text": "eagle",
+            "length": 5,
+            "difficulty": 0.48
+        },
+        {
+            "id": 240,
+            "text": "vibrate",
+            "length": 7,
+            "difficulty": 0.52
+        },
+        {
+            "id": 241,
+            "text": "nebula",
+            "length": 6,
+            "difficulty": 0.52
+        },
+        {
+            "id": 242,
+            "text": "warrant",
+            "length": 7,
+            "difficulty": 0.56
+        },
+        {
+            "id": 243,
+            "text": "acquire",
+            "length": 7,
+            "difficulty": 0.56
+        },
+        {
+            "id": 244,
+            "text": "justice",
+            "length": 7,
+            "difficulty": 0.47
+        },
+        {
+            "id": 245,
+            "text": "kingdom",
+            "length": 7,
+            "difficulty": 0.47
+        },
+        {
+            "id": 246,
+            "text": "harmony",
+            "length": 7,
+            "difficulty": 0.45
+        },
+        {
+            "id": 247,
+            "text": "mango",
+            "length": 5,
+            "difficulty": 0.55
+        },
+        {
+            "id": 248,
+            "text": "forest",
+            "length": 6,
+            "difficulty": 0.52
+        },
+        {
+            "id": 249,
+            "text": "sustain",
+            "length": 7,
+            "difficulty": 0.54
+        },
+        {
+            "id": 250,
+            "text": "temple",
+            "length": 6,
+            "difficulty": 0.5
+        },
+        {
+            "id": 251,
+            "text": "yam",
+            "length": 3,
+            "difficulty": 0.44
+        },
+        {
+            "id": 252,
+            "text": "lemon",
+            "length": 5,
+            "difficulty": 0.46
+        },
+        {
+            "id": 253,
+            "text": "island",
+            "length": 6,
+            "difficulty": 0.59
+        },
+        {
+            "id": 254,
+            "text": "xenon",
+            "length": 5,
+            "difficulty": 0.55
+        },
+        {
+            "id": 255,
+            "text": "garden",
+            "length": 6,
+            "difficulty": 0.55
+        },
+        {
+            "id": 256,
+            "text": "mountain",
+            "length": 8,
+            "difficulty": 0.49
+        },
+        {
+            "id": 257,
+            "text": "neutral",
+            "length": 7,
+            "difficulty": 0.6
+        },
+        {
+            "id": 258,
+            "text": "mountain",
+            "length": 8,
+            "difficulty": 0.43
+        },
+        {
+            "id": 259,
+            "text": "install",
+            "length": 7,
+            "difficulty": 0.51
+        },
+        {
+            "id": 260,
+            "text": "apple",
+            "length": 5,
+            "difficulty": 0.5
+        },
+        {
+            "id": 261,
+            "text": "river",
+            "length": 5,
+            "difficulty": 0.41
+        },
+        {
+            "id": 262,
+            "text": "cherry",
+            "length": 6,
+            "difficulty": 0.53
+        },
+        {
+            "id": 263,
+            "text": "harmony",
+            "length": 7,
+            "difficulty": 0.54
+        },
+        {
+            "id": 264,
+            "text": "harbor",
+            "length": 6,
+            "difficulty": 0.51
+        },
+        {
+            "id": 265,
+            "text": "mountain",
+            "length": 8,
+            "difficulty": 0.48
+        },
+        {
+            "id": 266,
+            "text": "resolve",
+            "length": 7,
+            "difficulty": 0.59
+        },
+        {
+            "id": 267,
+            "text": "quarry",
+            "length": 6,
+            "difficulty": 0.41
+        },
+        {
+            "id": 268,
+            "text": "observe",
+            "length": 7,
+            "difficulty": 0.59
+        },
+        {
+            "id": 269,
+            "text": "precise",
+            "length": 7,
+            "difficulty": 0.51
+        },
+        {
+            "id": 270,
+            "text": "fig",
+            "length": 3,
+            "difficulty": 0.41
+        },
+        {
+            "id": 271,
+            "text": "kinetic",
+            "length": 7,
+            "difficulty": 0.57
+        },
+        {
+            "id": 272,
+            "text": "ugli",
+            "length": 4,
+            "difficulty": 0.4
+        },
+        {
+            "id": 273,
+            "text": "resolve",
+            "length": 7,
+            "difficulty": 0.59
+        },
+        {
+            "id": 274,
+            "text": "theorem",
+            "length": 7,
+            "difficulty": 0.42
+        },
+        {
+            "id": 275,
+            "text": "yielded",
+            "length": 7,
+            "difficulty": 0.51
+        },
+        {
+            "id": 276,
+            "text": "quince",
+            "length": 6,
+            "difficulty": 0.49
+        },
+        {
+            "id": 277,
+            "text": "jungle",
+            "length": 6,
+            "difficulty": 0.47
+        },
+        {
+            "id": 278,
+            "text": "harmony",
+            "length": 7,
+            "difficulty": 0.51
+        },
+        {
+            "id": 279,
+            "text": "magnet",
+            "length": 6,
+            "difficulty": 0.45
+        },
+        {
+            "id": 280,
+            "text": "kiwi",
+            "length": 4,
+            "difficulty": 0.52
+        },
+        {
+            "id": 281,
+            "text": "valley",
+            "length": 6,
+            "difficulty": 0.49
+        },
+        {
+            "id": 282,
+            "text": "garden",
+            "length": 6,
+            "difficulty": 0.46
+        },
+        {
+            "id": 283,
+            "text": "ocean",
+            "length": 5,
+            "difficulty": 0.49
+        },
+        {
+            "id": 284,
+            "text": "xigua",
+            "length": 5,
+            "difficulty": 0.42
+        },
+        {
+            "id": 285,
+            "text": "quince",
+            "length": 6,
+            "difficulty": 0.43
+        },
+        {
+            "id": 286,
+            "text": "elderberry",
+            "length": 10,
+            "difficulty": 0.55
+        },
+        {
+            "id": 287,
+            "text": "wilderness",
+            "length": 10,
+            "difficulty": 0.49
+        },
+        {
+            "id": 288,
+            "text": "island",
+            "length": 6,
+            "difficulty": 0.54
+        },
+        {
+            "id": 289,
+            "text": "cherry",
+            "length": 6,
+            "difficulty": 0.57
+        },
+        {
+            "id": 290,
+            "text": "theorem",
+            "length": 7,
+            "difficulty": 0.52
+        },
+        {
+            "id": 291,
+            "text": "raspberry",
+            "length": 9,
+            "difficulty": 0.55
+        },
+        {
+            "id": 292,
+            "text": "uncover",
+            "length": 7,
+            "difficulty": 0.59
+        },
+        {
+            "id": 293,
+            "text": "precise",
+            "length": 7,
+            "difficulty": 0.47
+        },
+        {
+            "id": 294,
+            "text": "quince",
+            "length": 6,
+            "difficulty": 0.52
+        },
+        {
+            "id": 295,
+            "text": "quarry",
+            "length": 6,
+            "difficulty": 0.43
+        },
+        {
+            "id": 296,
+            "text": "neutral",
+            "length": 7,
+            "difficulty": 0.52
+        },
+        {
+            "id": 297,
+            "text": "river",
+            "length": 5,
+            "difficulty": 0.55
+        },
+        {
+            "id": 298,
+            "text": "vibrate",
+            "length": 7,
+            "difficulty": 0.42
+        },
+        {
+            "id": 299,
+            "text": "xigua",
+            "length": 5,
+            "difficulty": 0.41
+        },
+        {
+            "id": 300,
+            "text": "strawberry",
+            "length": 10,
+            "difficulty": 0.41
+        },
+        {
+            "id": 301,
+            "text": "honeydew",
+            "length": 8,
+            "difficulty": 0.46
+        },
+        {
+            "id": 302,
+            "text": "tangerine",
+            "length": 9,
+            "difficulty": 0.55
+        },
+        {
+            "id": 303,
+            "text": "resolve",
+            "length": 7,
+            "difficulty": 0.52
+        },
+        {
+            "id": 304,
+            "text": "desert",
+            "length": 6,
+            "difficulty": 0.59
+        },
+        {
+            "id": 305,
+            "text": "tangerine",
+            "length": 9,
+            "difficulty": 0.4
+        },
+        {
+            "id": 306,
+            "text": "beneath",
+            "length": 7,
+            "difficulty": 0.52
+        },
+        {
+            "id": 307,
+            "text": "raspberry",
+            "length": 9,
+            "difficulty": 0.55
+        },
+        {
+            "id": 308,
+            "text": "mountain",
+            "length": 8,
+            "difficulty": 0.54
+        },
+        {
+            "id": 309,
+            "text": "zucchini",
+            "length": 8,
+            "difficulty": 0.53
+        },
+        {
+            "id": 310,
+            "text": "uncover",
+            "length": 7,
+            "difficulty": 0.58
+        },
+        {
+            "id": 311,
+            "text": "harmony",
+            "length": 7,
+            "difficulty": 0.6
+        },
+        {
+            "id": 312,
+            "text": "cherry",
+            "length": 6,
+            "difficulty": 0.58
+        },
+        {
+            "id": 313,
+            "text": "nebula",
+            "length": 6,
+            "difficulty": 0.58
+        },
+        {
+            "id": 314,
+            "text": "lemon",
+            "length": 5,
+            "difficulty": 0.42
+        },
+        {
+            "id": 315,
+            "text": "prairie",
+            "length": 7,
+            "difficulty": 0.43
+        },
+        {
+            "id": 316,
+            "text": "valley",
+            "length": 6,
+            "difficulty": 0.46
+        },
+        {
+            "id": 317,
+            "text": "theorem",
+            "length": 7,
+            "difficulty": 0.54
+        },
+        {
+            "id": 318,
+            "text": "kiwi",
+            "length": 4,
+            "difficulty": 0.51
+        },
+        {
+            "id": 319,
+            "text": "elderberry",
+            "length": 10,
+            "difficulty": 0.51
+        },
+        {
+            "id": 320,
+            "text": "river",
+            "length": 5,
+            "difficulty": 0.44
+        },
+        {
+            "id": 321,
+            "text": "cherry",
+            "length": 6,
+            "difficulty": 0.49
+        },
+        {
+            "id": 322,
+            "text": "quantum",
+            "length": 7,
+            "difficulty": 0.46
+        },
+        {
+            "id": 323,
+            "text": "mango",
+            "length": 5,
+            "difficulty": 0.53
+        },
+        {
+            "id": 324,
+            "text": "zucchini",
+            "length": 8,
+            "difficulty": 0.54
+        },
+        {
+            "id": 325,
+            "text": "strawberry",
+            "length": 10,
+            "difficulty": 0.55
+        },
+        {
+            "id": 326,
+            "text": "neutral",
+            "length": 7,
+            "difficulty": 0.5
+        },
+        {
+            "id": 327,
+            "text": "ocean",
+            "length": 5,
+            "difficulty": 0.41
+        },
+        {
+            "id": 328,
+            "text": "uncover",
+            "length": 7,
+            "difficulty": 0.43
+        },
+        {
+            "id": 329,
+            "text": "precise",
+            "length": 7,
+            "difficulty": 0.5
+        },
+        {
+            "id": 330,
+            "text": "prairie",
+            "length": 7,
+            "difficulty": 0.44
+        },
+        {
+            "id": 331,
+            "text": "kiwi",
+            "length": 4,
+            "difficulty": 0.51
+        },
+        {
+            "id": 332,
+            "text": "harbor",
+            "length": 6,
+            "difficulty": 0.59
+        },
+        {
+            "id": 333,
+            "text": "quarry",
+            "length": 6,
+            "difficulty": 0.43
+        },
+        {
+            "id": 334,
+            "text": "wilderness",
+            "length": 10,
+            "difficulty": 0.46
+        },
+        {
+            "id": 335,
+            "text": "xigua",
+            "length": 5,
+            "difficulty": 0.44
+        },
+        {
+            "id": 336,
+            "text": "library",
+            "length": 7,
+            "difficulty": 0.41
+        },
+        {
+            "id": 337,
+            "text": "yielded",
+            "length": 7,
+            "difficulty": 0.41
+        },
+        {
+            "id": 338,
+            "text": "ugli",
+            "length": 4,
+            "difficulty": 0.52
+        },
+        {
+            "id": 339,
+            "text": "xenon",
+            "length": 5,
+            "difficulty": 0.44
+        },
+        {
+            "id": 340,
+            "text": "yielded",
+            "length": 7,
+            "difficulty": 0.44
+        },
+        {
+            "id": 341,
+            "text": "zealots",
+            "length": 7,
+            "difficulty": 0.53
+        },
+        {
+            "id": 342,
+            "text": "mountain",
+            "length": 8,
+            "difficulty": 0.5
+        },
+        {
+            "id": 343,
+            "text": "kingdom",
+            "length": 7,
+            "difficulty": 0.44
+        },
+        {
+            "id": 344,
+            "text": "magnet",
+            "length": 6,
+            "difficulty": 0.52
+        },
+        {
+            "id": 345,
+            "text": "quarry",
+            "length": 6,
+            "difficulty": 0.48
+        },
+        {
+            "id": 346,
+            "text": "zealots",
+            "length": 7,
+            "difficulty": 0.48
+        },
+        {
+            "id": 347,
+            "text": "beneath",
+            "length": 7,
+            "difficulty": 0.45
+        },
+        {
+            "id": 348,
+            "text": "wilderness",
+            "length": 10,
+            "difficulty": 0.51
+        },
+        {
+            "id": 349,
+            "text": "zucchini",
+            "length": 8,
+            "difficulty": 0.43
+        },
+        {
+            "id": 350,
+            "text": "prairie",
+            "length": 7,
+            "difficulty": 0.59
+        },
+        {
+            "id": 351,
+            "text": "zealots",
+            "length": 7,
+            "difficulty": 0.47
+        },
+        {
+            "id": 352,
+            "text": "xenon",
+            "length": 5,
+            "difficulty": 0.5
+        },
+        {
+            "id": 353,
+            "text": "savanna",
+            "length": 7,
+            "difficulty": 0.58
+        },
+        {
+            "id": 354,
+            "text": "zucchini",
+            "length": 8,
+            "difficulty": 0.58
+        },
+        {
+            "id": 355,
+            "text": "jungle",
+            "length": 6,
+            "difficulty": 0.56
+        },
+        {
+            "id": 356,
+            "text": "gesture",
+            "length": 7,
+            "difficulty": 0.45
+        },
+        {
+            "id": 357,
+            "text": "resolve",
+            "length": 7,
+            "difficulty": 0.46
+        },
+        {
+            "id": 358,
+            "text": "kingdom",
+            "length": 7,
+            "difficulty": 0.56
+        },
+        {
+            "id": 359,
+            "text": "xenial",
+            "length": 6,
+            "difficulty": 0.56
+        },
+        {
+            "id": 360,
+            "text": "banana",
+            "length": 6,
+            "difficulty": 0.42
+        },
+        {
+            "id": 361,
+            "text": "mountain",
+            "length": 8,
+            "difficulty": 0.5
+        },
+        {
+            "id": 362,
+            "text": "compile",
+            "length": 7,
+            "difficulty": 0.53
+        },
+        {
+            "id": 363,
+            "text": "grape",
+            "length": 5,
+            "difficulty": 0.52
+        },
+        {
+            "id": 364,
+            "text": "castle",
+            "length": 6,
+            "difficulty": 0.59
+        },
+        {
+            "id": 365,
+            "text": "banana",
+            "length": 6,
+            "difficulty": 0.56
+        },
+        {
+            "id": 366,
+            "text": "install",
+            "length": 7,
+            "difficulty": 0.53
+        },
+        {
+            "id": 367,
+            "text": "fig",
+            "length": 3,
+            "difficulty": 0.56
+        },
+        {
+            "id": 368,
+            "text": "harbor",
+            "length": 6,
+            "difficulty": 0.55
+        },
+        {
+            "id": 369,
+            "text": "observe",
+            "length": 7,
+            "difficulty": 0.52
+        },
+        {
+            "id": 370,
+            "text": "kingdom",
+            "length": 7,
+            "difficulty": 0.45
+        },
+        {
+            "id": 371,
+            "text": "zephyr",
+            "length": 6,
+            "difficulty": 0.6
+        },
+        {
+            "id": 372,
+            "text": "garden",
+            "length": 6,
+            "difficulty": 0.55
+        },
+        {
+            "id": 373,
+            "text": "resolve",
+            "length": 7,
+            "difficulty": 0.43
+        },
+        {
+            "id": 374,
+            "text": "fig",
+            "length": 3,
+            "difficulty": 0.5
+        },
+        {
+            "id": 375,
+            "text": "papaya",
+            "length": 6,
+            "difficulty": 0.41
+        },
+        {
+            "id": 376,
+            "text": "feature",
+            "length": 7,
+            "difficulty": 0.41
+        },
+        {
+            "id": 377,
+            "text": "feature",
+            "length": 7,
+            "difficulty": 0.59
+        },
+        {
+            "id": 378,
+            "text": "harbor",
+            "length": 6,
+            "difficulty": 0.5
+        },
+        {
+            "id": 379,
+            "text": "honeydew",
+            "length": 8,
+            "difficulty": 0.47
+        },
+        {
+            "id": 380,
+            "text": "lemon",
+            "length": 5,
+            "difficulty": 0.57
+        },
+        {
+            "id": 381,
+            "text": "warrant",
+            "length": 7,
+            "difficulty": 0.45
+        },
+        {
+            "id": 382,
+            "text": "date",
+            "length": 4,
+            "difficulty": 0.43
+        },
+        {
+            "id": 383,
+            "text": "zephyr",
+            "length": 6,
+            "difficulty": 0.58
+        },
+        {
+            "id": 384,
+            "text": "xenon",
+            "length": 5,
+            "difficulty": 0.56
+        },
+        {
+            "id": 385,
+            "text": "sustain",
+            "length": 7,
+            "difficulty": 0.54
+        },
+        {
+            "id": 386,
+            "text": "date",
+            "length": 4,
+            "difficulty": 0.57
+        },
+        {
+            "id": 387,
+            "text": "zucchini",
+            "length": 8,
+            "difficulty": 0.45
+        },
+        {
+            "id": 388,
+            "text": "warrant",
+            "length": 7,
+            "difficulty": 0.45
+        },
+        {
+            "id": 389,
+            "text": "papaya",
+            "length": 6,
+            "difficulty": 0.42
+        },
+        {
+            "id": 390,
+            "text": "yielded",
+            "length": 7,
+            "difficulty": 0.56
+        },
+        {
+            "id": 391,
+            "text": "theorem",
+            "length": 7,
+            "difficulty": 0.44
+        },
+        {
+            "id": 392,
+            "text": "logical",
+            "length": 7,
+            "difficulty": 0.41
+        },
+        {
+            "id": 393,
+            "text": "logical",
+            "length": 7,
+            "difficulty": 0.54
+        },
+        {
+            "id": 394,
+            "text": "honeydew",
+            "length": 8,
+            "difficulty": 0.51
+        },
+        {
+            "id": 395,
+            "text": "library",
+            "length": 7,
+            "difficulty": 0.55
+        },
+        {
+            "id": 396,
+            "text": "watermelon",
+            "length": 10,
+            "difficulty": 0.56
+        },
+        {
+            "id": 397,
+            "text": "neutral",
+            "length": 7,
+            "difficulty": 0.51
+        },
+        {
+            "id": 398,
+            "text": "beneath",
+            "length": 7,
+            "difficulty": 0.57
+        },
+        {
+            "id": 399,
+            "text": "prairie",
+            "length": 7,
+            "difficulty": 0.4
+        }
+    ],
+    "advanced": [
+        {
+            "id": 400,
+            "text": "honeydew",
+            "length": 8,
+            "difficulty": 0.81
+        },
+        {
+            "id": 401,
+            "text": "uncover",
+            "length": 7,
+            "difficulty": 0.87
+        },
+        {
+            "id": 402,
+            "text": "warrant",
+            "length": 7,
+            "difficulty": 0.7
+        },
+        {
+            "id": 403,
+            "text": "elderberry",
+            "length": 10,
+            "difficulty": 0.87
+        },
+        {
+            "id": 404,
+            "text": "raspberry",
+            "length": 9,
+            "difficulty": 0.79
+        },
+        {
+            "id": 405,
+            "text": "xenon",
+            "length": 5,
+            "difficulty": 0.72
+        },
+        {
+            "id": 406,
+            "text": "unicorn",
+            "length": 7,
+            "difficulty": 0.8
+        },
+        {
+            "id": 407,
+            "text": "acquire",
+            "length": 7,
+            "difficulty": 0.84
+        },
+        {
+            "id": 408,
+            "text": "elderberry",
+            "length": 10,
+            "difficulty": 0.86
+        },
+        {
+            "id": 409,
+            "text": "anchor",
+            "length": 6,
+            "difficulty": 0.84
+        },
+        {
+            "id": 410,
+            "text": "quantum",
+            "length": 7,
+            "difficulty": 0.72
+        },
+        {
+            "id": 411,
+            "text": "honeydew",
+            "length": 8,
+            "difficulty": 0.9
+        },
+        {
+            "id": 412,
+            "text": "eagle",
+            "length": 5,
+            "difficulty": 0.86
+        },
+        {
+            "id": 413,
+            "text": "neutral",
+            "length": 7,
+            "difficulty": 0.81
+        },
+        {
+            "id": 414,
+            "text": "fig",
+            "length": 3,
+            "difficulty": 0.89
+        },
+        {
+            "id": 415,
+            "text": "justice",
+            "length": 7,
+            "difficulty": 0.75
+        },
+        {
+            "id": 416,
+            "text": "uncover",
+            "length": 7,
+            "difficulty": 0.81
+        },
+        {
+            "id": 417,
+            "text": "library",
+            "length": 7,
+            "difficulty": 0.83
+        },
+        {
+            "id": 418,
+            "text": "resolve",
+            "length": 7,
+            "difficulty": 0.86
+        },
+        {
+            "id": 419,
+            "text": "forest",
+            "length": 6,
+            "difficulty": 0.84
+        },
+        {
+            "id": 420,
+            "text": "xenial",
+            "length": 6,
+            "difficulty": 0.73
+        },
+        {
+            "id": 421,
+            "text": "forest",
+            "length": 6,
+            "difficulty": 0.8
+        },
+        {
+            "id": 422,
+            "text": "papaya",
+            "length": 6,
+            "difficulty": 0.79
+        },
+        {
+            "id": 423,
+            "text": "tangerine",
+            "length": 9,
+            "difficulty": 0.75
+        },
+        {
+            "id": 424,
+            "text": "river",
+            "length": 5,
+            "difficulty": 0.71
+        },
+        {
+            "id": 425,
+            "text": "uncover",
+            "length": 7,
+            "difficulty": 0.84
+        },
+        {
+            "id": 426,
+            "text": "sustain",
+            "length": 7,
+            "difficulty": 0.79
+        },
+        {
+            "id": 427,
+            "text": "savanna",
+            "length": 7,
+            "difficulty": 0.86
+        },
+        {
+            "id": 428,
+            "text": "harbor",
+            "length": 6,
+            "difficulty": 0.87
+        },
+        {
+            "id": 429,
+            "text": "dynamic",
+            "length": 7,
+            "difficulty": 0.71
+        },
+        {
+            "id": 430,
+            "text": "resolve",
+            "length": 7,
+            "difficulty": 0.75
+        },
+        {
+            "id": 431,
+            "text": "jungle",
+            "length": 6,
+            "difficulty": 0.9
+        },
+        {
+            "id": 432,
+            "text": "library",
+            "length": 7,
+            "difficulty": 0.71
+        },
+        {
+            "id": 433,
+            "text": "watermelon",
+            "length": 10,
+            "difficulty": 0.76
+        },
+        {
+            "id": 434,
+            "text": "precise",
+            "length": 7,
+            "difficulty": 0.82
+        },
+        {
+            "id": 435,
+            "text": "kinetic",
+            "length": 7,
+            "difficulty": 0.87
+        },
+        {
+            "id": 436,
+            "text": "papaya",
+            "length": 6,
+            "difficulty": 0.8
+        },
+        {
+            "id": 437,
+            "text": "banana",
+            "length": 6,
+            "difficulty": 0.74
+        },
+        {
+            "id": 438,
+            "text": "valley",
+            "length": 6,
+            "difficulty": 0.82
+        },
+        {
+            "id": 439,
+            "text": "eagle",
+            "length": 5,
+            "difficulty": 0.75
+        },
+        {
+            "id": 440,
+            "text": "raspberry",
+            "length": 9,
+            "difficulty": 0.76
+        },
+        {
+            "id": 441,
+            "text": "temple",
+            "length": 6,
+            "difficulty": 0.84
+        },
+        {
+            "id": 442,
+            "text": "river",
+            "length": 5,
+            "difficulty": 0.76
+        },
+        {
+            "id": 443,
+            "text": "yielded",
+            "length": 7,
+            "difficulty": 0.79
+        },
+        {
+            "id": 444,
+            "text": "gesture",
+            "length": 7,
+            "difficulty": 0.8
+        },
+        {
+            "id": 445,
+            "text": "honeydew",
+            "length": 8,
+            "difficulty": 0.8
+        },
+        {
+            "id": 446,
+            "text": "uncover",
+            "length": 7,
+            "difficulty": 0.79
+        },
+        {
+            "id": 447,
+            "text": "unicorn",
+            "length": 7,
+            "difficulty": 0.78
+        },
+        {
+            "id": 448,
+            "text": "forest",
+            "length": 6,
+            "difficulty": 0.81
+        },
+        {
+            "id": 449,
+            "text": "warrant",
+            "length": 7,
+            "difficulty": 0.86
+        },
+        {
+            "id": 450,
+            "text": "prairie",
+            "length": 7,
+            "difficulty": 0.79
+        },
+        {
+            "id": 451,
+            "text": "jungle",
+            "length": 6,
+            "difficulty": 0.76
+        },
+        {
+            "id": 452,
+            "text": "mango",
+            "length": 5,
+            "difficulty": 0.79
+        },
+        {
+            "id": 453,
+            "text": "savanna",
+            "length": 7,
+            "difficulty": 0.74
+        },
+        {
+            "id": 454,
+            "text": "precise",
+            "length": 7,
+            "difficulty": 0.74
+        },
+        {
+            "id": 455,
+            "text": "observe",
+            "length": 7,
+            "difficulty": 0.82
+        },
+        {
+            "id": 456,
+            "text": "enhance",
+            "length": 7,
+            "difficulty": 0.89
+        },
+        {
+            "id": 457,
+            "text": "quantum",
+            "length": 7,
+            "difficulty": 0.7
+        },
+        {
+            "id": 458,
+            "text": "feature",
+            "length": 7,
+            "difficulty": 0.73
+        },
+        {
+            "id": 459,
+            "text": "eagle",
+            "length": 5,
+            "difficulty": 0.78
+        },
+        {
+            "id": 460,
+            "text": "nectarine",
+            "length": 9,
+            "difficulty": 0.82
+        },
+        {
+            "id": 461,
+            "text": "wilderness",
+            "length": 10,
+            "difficulty": 0.72
+        },
+        {
+            "id": 462,
+            "text": "date",
+            "length": 4,
+            "difficulty": 0.77
+        },
+        {
+            "id": 463,
+            "text": "orange",
+            "length": 6,
+            "difficulty": 0.79
+        },
+        {
+            "id": 464,
+            "text": "quince",
+            "length": 6,
+            "difficulty": 0.81
+        },
+        {
+            "id": 465,
+            "text": "orange",
+            "length": 6,
+            "difficulty": 0.77
+        },
+        {
+            "id": 466,
+            "text": "zucchini",
+            "length": 8,
+            "difficulty": 0.76
+        },
+        {
+            "id": 467,
+            "text": "install",
+            "length": 7,
+            "difficulty": 0.72
+        },
+        {
+            "id": 468,
+            "text": "bridge",
+            "length": 6,
+            "difficulty": 0.87
+        },
+        {
+            "id": 469,
+            "text": "nectarine",
+            "length": 9,
+            "difficulty": 0.82
+        },
+        {
+            "id": 470,
+            "text": "magnet",
+            "length": 6,
+            "difficulty": 0.89
+        },
+        {
+            "id": 471,
+            "text": "castle",
+            "length": 6,
+            "difficulty": 0.79
+        },
+        {
+            "id": 472,
+            "text": "neutral",
+            "length": 7,
+            "difficulty": 0.76
+        },
+        {
+            "id": 473,
+            "text": "nebula",
+            "length": 6,
+            "difficulty": 0.87
+        },
+        {
+            "id": 474,
+            "text": "savanna",
+            "length": 7,
+            "difficulty": 0.71
+        },
+        {
+            "id": 475,
+            "text": "desert",
+            "length": 6,
+            "difficulty": 0.75
+        },
+        {
+            "id": 476,
+            "text": "dynamic",
+            "length": 7,
+            "difficulty": 0.81
+        },
+        {
+            "id": 477,
+            "text": "grape",
+            "length": 5,
+            "difficulty": 0.86
+        },
+        {
+            "id": 478,
+            "text": "yam",
+            "length": 3,
+            "difficulty": 0.74
+        },
+        {
+            "id": 479,
+            "text": "gesture",
+            "length": 7,
+            "difficulty": 0.73
+        },
+        {
+            "id": 480,
+            "text": "fig",
+            "length": 3,
+            "difficulty": 0.82
+        },
+        {
+            "id": 481,
+            "text": "island",
+            "length": 6,
+            "difficulty": 0.76
+        },
+        {
+            "id": 482,
+            "text": "jungle",
+            "length": 6,
+            "difficulty": 0.82
+        },
+        {
+            "id": 483,
+            "text": "nebula",
+            "length": 6,
+            "difficulty": 0.83
+        },
+        {
+            "id": 484,
+            "text": "temple",
+            "length": 6,
+            "difficulty": 0.77
+        },
+        {
+            "id": 485,
+            "text": "strawberry",
+            "length": 10,
+            "difficulty": 0.7
+        },
+        {
+            "id": 486,
+            "text": "unicorn",
+            "length": 7,
+            "difficulty": 0.8
+        },
+        {
+            "id": 487,
+            "text": "date",
+            "length": 4,
+            "difficulty": 0.8
+        },
+        {
+            "id": 488,
+            "text": "vibrate",
+            "length": 7,
+            "difficulty": 0.75
+        },
+        {
+            "id": 489,
+            "text": "eagle",
+            "length": 5,
+            "difficulty": 0.78
+        },
+        {
+            "id": 490,
+            "text": "vanilla",
+            "length": 7,
+            "difficulty": 0.9
+        },
+        {
+            "id": 491,
+            "text": "tangerine",
+            "length": 9,
+            "difficulty": 0.81
+        },
+        {
+            "id": 492,
+            "text": "yam",
+            "length": 3,
+            "difficulty": 0.76
+        },
+        {
+            "id": 493,
+            "text": "elderberry",
+            "length": 10,
+            "difficulty": 0.71
+        },
+        {
+            "id": 494,
+            "text": "kiwi",
+            "length": 4,
+            "difficulty": 0.85
+        },
+        {
+            "id": 495,
+            "text": "justice",
+            "length": 7,
+            "difficulty": 0.8
+        },
+        {
+            "id": 496,
+            "text": "theorem",
+            "length": 7,
+            "difficulty": 0.88
+        },
+        {
+            "id": 497,
+            "text": "tangerine",
+            "length": 9,
+            "difficulty": 0.73
+        },
+        {
+            "id": 498,
+            "text": "desert",
+            "length": 6,
+            "difficulty": 0.79
+        },
+        {
+            "id": 499,
+            "text": "eagle",
+            "length": 5,
+            "difficulty": 0.74
+        },
+        {
+            "id": 500,
+            "text": "garden",
+            "length": 6,
+            "difficulty": 0.77
+        },
+        {
+            "id": 501,
+            "text": "dynamic",
+            "length": 7,
+            "difficulty": 0.84
+        },
+        {
+            "id": 502,
+            "text": "observe",
+            "length": 7,
+            "difficulty": 0.87
+        },
+        {
+            "id": 503,
+            "text": "quarry",
+            "length": 6,
+            "difficulty": 0.87
+        },
+        {
+            "id": 504,
+            "text": "apple",
+            "length": 5,
+            "difficulty": 0.74
+        },
+        {
+            "id": 505,
+            "text": "yam",
+            "length": 3,
+            "difficulty": 0.7
+        },
+        {
+            "id": 506,
+            "text": "unicorn",
+            "length": 7,
+            "difficulty": 0.86
+        },
+        {
+            "id": 507,
+            "text": "forest",
+            "length": 6,
+            "difficulty": 0.83
+        },
+        {
+            "id": 508,
+            "text": "kiwi",
+            "length": 4,
+            "difficulty": 0.75
+        },
+        {
+            "id": 509,
+            "text": "vibrate",
+            "length": 7,
+            "difficulty": 0.74
+        },
+        {
+            "id": 510,
+            "text": "papaya",
+            "length": 6,
+            "difficulty": 0.7
+        },
+        {
+            "id": 511,
+            "text": "kinetic",
+            "length": 7,
+            "difficulty": 0.9
+        },
+        {
+            "id": 512,
+            "text": "beneath",
+            "length": 7,
+            "difficulty": 0.89
+        },
+        {
+            "id": 513,
+            "text": "desert",
+            "length": 6,
+            "difficulty": 0.75
+        },
+        {
+            "id": 514,
+            "text": "xenial",
+            "length": 6,
+            "difficulty": 0.86
+        },
+        {
+            "id": 515,
+            "text": "enhance",
+            "length": 7,
+            "difficulty": 0.78
+        },
+        {
+            "id": 516,
+            "text": "enhance",
+            "length": 7,
+            "difficulty": 0.72
+        },
+        {
+            "id": 517,
+            "text": "vanilla",
+            "length": 7,
+            "difficulty": 0.7
+        },
+        {
+            "id": 518,
+            "text": "yam",
+            "length": 3,
+            "difficulty": 0.84
+        },
+        {
+            "id": 519,
+            "text": "zucchini",
+            "length": 8,
+            "difficulty": 0.87
+        },
+        {
+            "id": 520,
+            "text": "apple",
+            "length": 5,
+            "difficulty": 0.78
+        },
+        {
+            "id": 521,
+            "text": "xigua",
+            "length": 5,
+            "difficulty": 0.71
+        },
+        {
+            "id": 522,
+            "text": "grape",
+            "length": 5,
+            "difficulty": 0.86
+        },
+        {
+            "id": 523,
+            "text": "vibrate",
+            "length": 7,
+            "difficulty": 0.82
+        },
+        {
+            "id": 524,
+            "text": "forest",
+            "length": 6,
+            "difficulty": 0.83
+        },
+        {
+            "id": 525,
+            "text": "ugli",
+            "length": 4,
+            "difficulty": 0.84
+        },
+        {
+            "id": 526,
+            "text": "observe",
+            "length": 7,
+            "difficulty": 0.85
+        },
+        {
+            "id": 527,
+            "text": "anchor",
+            "length": 6,
+            "difficulty": 0.9
+        },
+        {
+            "id": 528,
+            "text": "quarry",
+            "length": 6,
+            "difficulty": 0.88
+        },
+        {
+            "id": 529,
+            "text": "kiwi",
+            "length": 4,
+            "difficulty": 0.77
+        },
+        {
+            "id": 530,
+            "text": "raspberry",
+            "length": 9,
+            "difficulty": 0.8
+        },
+        {
+            "id": 531,
+            "text": "bridge",
+            "length": 6,
+            "difficulty": 0.83
+        },
+        {
+            "id": 532,
+            "text": "bridge",
+            "length": 6,
+            "difficulty": 0.83
+        },
+        {
+            "id": 533,
+            "text": "desert",
+            "length": 6,
+            "difficulty": 0.71
+        },
+        {
+            "id": 534,
+            "text": "nebula",
+            "length": 6,
+            "difficulty": 0.86
+        },
+        {
+            "id": 535,
+            "text": "feature",
+            "length": 7,
+            "difficulty": 0.85
+        },
+        {
+            "id": 536,
+            "text": "lemon",
+            "length": 5,
+            "difficulty": 0.89
+        },
+        {
+            "id": 537,
+            "text": "mango",
+            "length": 5,
+            "difficulty": 0.77
+        },
+        {
+            "id": 538,
+            "text": "grape",
+            "length": 5,
+            "difficulty": 0.88
+        },
+        {
+            "id": 539,
+            "text": "dynamic",
+            "length": 7,
+            "difficulty": 0.88
+        },
+        {
+            "id": 540,
+            "text": "strawberry",
+            "length": 10,
+            "difficulty": 0.7
+        },
+        {
+            "id": 541,
+            "text": "feature",
+            "length": 7,
+            "difficulty": 0.85
+        },
+        {
+            "id": 542,
+            "text": "grape",
+            "length": 5,
+            "difficulty": 0.78
+        },
+        {
+            "id": 543,
+            "text": "prairie",
+            "length": 7,
+            "difficulty": 0.78
+        },
+        {
+            "id": 544,
+            "text": "zephyr",
+            "length": 6,
+            "difficulty": 0.72
+        },
+        {
+            "id": 545,
+            "text": "river",
+            "length": 5,
+            "difficulty": 0.89
+        },
+        {
+            "id": 546,
+            "text": "eagle",
+            "length": 5,
+            "difficulty": 0.86
+        },
+        {
+            "id": 547,
+            "text": "savanna",
+            "length": 7,
+            "difficulty": 0.88
+        },
+        {
+            "id": 548,
+            "text": "logical",
+            "length": 7,
+            "difficulty": 0.76
+        },
+        {
+            "id": 549,
+            "text": "savanna",
+            "length": 7,
+            "difficulty": 0.8
+        },
+        {
+            "id": 550,
+            "text": "kingdom",
+            "length": 7,
+            "difficulty": 0.74
+        },
+        {
+            "id": 551,
+            "text": "raspberry",
+            "length": 9,
+            "difficulty": 0.77
+        },
+        {
+            "id": 552,
+            "text": "yam",
+            "length": 3,
+            "difficulty": 0.77
+        },
+        {
+            "id": 553,
+            "text": "vanilla",
+            "length": 7,
+            "difficulty": 0.82
+        },
+        {
+            "id": 554,
+            "text": "orange",
+            "length": 6,
+            "difficulty": 0.81
+        },
+        {
+            "id": 555,
+            "text": "eagle",
+            "length": 5,
+            "difficulty": 0.85
+        },
+        {
+            "id": 556,
+            "text": "justice",
+            "length": 7,
+            "difficulty": 0.74
+        },
+        {
+            "id": 557,
+            "text": "acquire",
+            "length": 7,
+            "difficulty": 0.85
+        },
+        {
+            "id": 558,
+            "text": "apple",
+            "length": 5,
+            "difficulty": 0.9
+        },
+        {
+            "id": 559,
+            "text": "ugli",
+            "length": 4,
+            "difficulty": 0.75
+        },
+        {
+            "id": 560,
+            "text": "apple",
+            "length": 5,
+            "difficulty": 0.73
+        },
+        {
+            "id": 561,
+            "text": "island",
+            "length": 6,
+            "difficulty": 0.8
+        },
+        {
+            "id": 562,
+            "text": "xenial",
+            "length": 6,
+            "difficulty": 0.87
+        },
+        {
+            "id": 563,
+            "text": "magnet",
+            "length": 6,
+            "difficulty": 0.84
+        },
+        {
+            "id": 564,
+            "text": "kinetic",
+            "length": 7,
+            "difficulty": 0.84
+        },
+        {
+            "id": 565,
+            "text": "dynamic",
+            "length": 7,
+            "difficulty": 0.89
+        },
+        {
+            "id": 566,
+            "text": "kinetic",
+            "length": 7,
+            "difficulty": 0.79
+        },
+        {
+            "id": 567,
+            "text": "lemon",
+            "length": 5,
+            "difficulty": 0.85
+        },
+        {
+            "id": 568,
+            "text": "acquire",
+            "length": 7,
+            "difficulty": 0.82
+        },
+        {
+            "id": 569,
+            "text": "harmony",
+            "length": 7,
+            "difficulty": 0.8
+        },
+        {
+            "id": 570,
+            "text": "banana",
+            "length": 6,
+            "difficulty": 0.7
+        },
+        {
+            "id": 571,
+            "text": "compile",
+            "length": 7,
+            "difficulty": 0.89
+        },
+        {
+            "id": 572,
+            "text": "beneath",
+            "length": 7,
+            "difficulty": 0.73
+        },
+        {
+            "id": 573,
+            "text": "zephyr",
+            "length": 6,
+            "difficulty": 0.73
+        },
+        {
+            "id": 574,
+            "text": "papaya",
+            "length": 6,
+            "difficulty": 0.75
+        },
+        {
+            "id": 575,
+            "text": "anchor",
+            "length": 6,
+            "difficulty": 0.7
+        },
+        {
+            "id": 576,
+            "text": "date",
+            "length": 4,
+            "difficulty": 0.84
+        },
+        {
+            "id": 577,
+            "text": "valley",
+            "length": 6,
+            "difficulty": 0.82
+        },
+        {
+            "id": 578,
+            "text": "mango",
+            "length": 5,
+            "difficulty": 0.72
+        },
+        {
+            "id": 579,
+            "text": "kinetic",
+            "length": 7,
+            "difficulty": 0.77
+        },
+        {
+            "id": 580,
+            "text": "dynamic",
+            "length": 7,
+            "difficulty": 0.77
+        },
+        {
+            "id": 581,
+            "text": "garden",
+            "length": 6,
+            "difficulty": 0.85
+        },
+        {
+            "id": 582,
+            "text": "apple",
+            "length": 5,
+            "difficulty": 0.9
+        },
+        {
+            "id": 583,
+            "text": "grape",
+            "length": 5,
+            "difficulty": 0.74
+        },
+        {
+            "id": 584,
+            "text": "quince",
+            "length": 6,
+            "difficulty": 0.76
+        },
+        {
+            "id": 585,
+            "text": "harmony",
+            "length": 7,
+            "difficulty": 0.72
+        },
+        {
+            "id": 586,
+            "text": "elderberry",
+            "length": 10,
+            "difficulty": 0.77
+        },
+        {
+            "id": 587,
+            "text": "date",
+            "length": 4,
+            "difficulty": 0.8
+        },
+        {
+            "id": 588,
+            "text": "xenon",
+            "length": 5,
+            "difficulty": 0.88
+        },
+        {
+            "id": 589,
+            "text": "fig",
+            "length": 3,
+            "difficulty": 0.76
+        },
+        {
+            "id": 590,
+            "text": "justice",
+            "length": 7,
+            "difficulty": 0.89
+        },
+        {
+            "id": 591,
+            "text": "quantum",
+            "length": 7,
+            "difficulty": 0.86
+        },
+        {
+            "id": 592,
+            "text": "tangerine",
+            "length": 9,
+            "difficulty": 0.85
+        },
+        {
+            "id": 593,
+            "text": "strawberry",
+            "length": 10,
+            "difficulty": 0.82
+        },
+        {
+            "id": 594,
+            "text": "raspberry",
+            "length": 9,
+            "difficulty": 0.87
+        },
+        {
+            "id": 595,
+            "text": "vibrate",
+            "length": 7,
+            "difficulty": 0.71
+        },
+        {
+            "id": 596,
+            "text": "acquire",
+            "length": 7,
+            "difficulty": 0.8
+        },
+        {
+            "id": 597,
+            "text": "neutral",
+            "length": 7,
+            "difficulty": 0.85
+        },
+        {
+            "id": 598,
+            "text": "castle",
+            "length": 6,
+            "difficulty": 0.87
+        },
+        {
+            "id": 599,
+            "text": "gesture",
+            "length": 7,
+            "difficulty": 0.77
+        }
+    ]
+}
