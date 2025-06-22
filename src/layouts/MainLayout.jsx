@@ -3,10 +3,12 @@ import Navbar from "../components/Navbar"
 
 const MainLayout = () => {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
         <Navbar />
-         <Outlet/>
-    </>
+        <div className="flex-1 bg-[var(--background-color)] text-[var(--text-color)]">
+          <Outlet/>
+        </div>
+    </div>
    
   // Assuming Outlet is imported from 'react-router-dom'
   )

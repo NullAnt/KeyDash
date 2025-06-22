@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+:root {
+  --background-color: #313131; /* Example background color */
+  --accent-color: #e14949; /* Example accent color */
+  --accent-color-hover: #c53b37;
+  --text-color: #e2e2e2; /* Example text color */
+}

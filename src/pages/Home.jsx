@@ -14,9 +14,8 @@ const Home = () => {
   if (selectedMode === "Sentence") ModeComponent = <Sentence />
 
   return (
-    <>
+    <div className="bg-[var(--background-color)] text-[var(--text-color)]">
     <section>
-      
       <h1>Home Page</h1>
     </section>
 
@@ -31,7 +30,7 @@ const Home = () => {
     <div>
       {ModeComponent}
     </div>
-    </>
+    </div>
   )
 }
 
