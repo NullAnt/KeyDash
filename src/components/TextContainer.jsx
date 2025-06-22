@@ -1,52 +1,69 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const TextContainer = ({
 
-    textareaRef, input, handleInput, showScoreboard, 
+    textareaRef, inputState, showScoreboard, 
     onTextAreaClick,
     target,
     ...props
 }) => {
+    const [input, setInput] = inputState
+    const [caretPos, setCaretPos] = useState(0)
 
+    const handleChange = (e) => {
+        setInput(e.target.value)
 
-    // Render logic for coloring only typed chars in each word
+        // Lock caret position
+        setCaretPos(e.target.selectionStart)
+        requestAnimationFrame(() => {
+            if (textareaRef.current) {
+                const len = textareaRef.current.value.length;
+                textareaRef.current.setSelectionRange(len, len);
+            }
+        });
+    }
+
+    const handleSelect = (e) => {
+        // Prevent caret position from changing when selecting text
+        setCaretPos(e.target.selectionStart)
+        if (textareaRef.current) {
+            const len = textareaRef.current.value.length;
+            textareaRef.current.setSelectionRange(len, len);
+        }
+    };
+
+    // Render logic for coloring only typed chars in each word, with custom cursor
     const renderColoredText = () => {
-        const targetWords = target.split(" ")
-        const inputWords = input.split(" ")
-
-        return targetWords.map((word, wIdx) => {
-            const inputWord = inputWords[wIdx] || ""
-            return (
-                <span
-                key={wIdx}
-                className="mr-2 inline-block align-bottom"
-                style={{ whiteSpace: "pre" }} // Prevent word break
-                >
-                {word.split("").map((char, cIdx) => {
-                    if (inputWord.length > cIdx) {
-                    return (
-                        <span
-                        key={cIdx}
-                        className={
-                            inputWord[cIdx] === char
-                            ? "text-green-600"
-                            : "text-red-600"
-                        }
-                        >
-                        {char}
-                        </span>
-                    )
-                    } else {
-                    return (
-                        <span key={cIdx} className="">
-                        {char}
-                        </span>
-                    )
-                    }
-                })}
-                </span>
-            )
-        })
+        const chars = target.split("");
+        const inputChars = input.split("");
+        let result = [];
+        for (let i = 0; i <= chars.length; i++) {
+            if (i === caretPos) {
+                result.push(
+                    <span
+                        key="caret"
+                        className="inline-block w-0.5 h-6 align-middle bg-[var(--accent-color)] animate-pulse"
+                        style={{ verticalAlign: "middle" }}
+                    ></span>
+                );
+            }
+            if (i < chars.length) {
+                let color = "";
+                if (inputChars[i]) {
+                    color = inputChars[i] === chars[i] ?
+                        "text-green-600" : // Color for correct chars
+                        (chars[i] === " " ?
+                            "text-red-600 rounded bg-red-200/20": // Color for incorrect chars instead of space
+                            "text-red-600"); // Color for incorrect chars
+                }
+                result.push(
+                    <span key={i} className={color}>
+                        {chars[i]}
+                    </span>
+                );
+            }
+        }
+        return result;
     }
     
 
@@ -57,12 +74,14 @@ const TextContainer = ({
             <textarea
                 ref={textareaRef}
                 value={input}
-                onChange={handleInput}
+                onChange={handleChange}
+                onSelect={handleSelect}
                 className="w-full h-full resize-none pointer-events-auto"
                 style={{ minHeight: 80 }}
                 spellCheck={false}
                 autoFocus
                 disabled={showScoreboard}
+                
             />
             </div>
             <div
