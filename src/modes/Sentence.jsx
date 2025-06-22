@@ -35,16 +35,23 @@ const Sentence = () => {
     const inputWords = input.trim().split(/\s+/).filter(Boolean)
     const targetWords = target.trim().split(/\s+/).filter(Boolean)
 
+
+    
     // If input has more words than target, or if input matches target and ends with a period, display scoreboard
+    // Completed the text:
     if (
       (inputWords.length > targetWords.length) ||
       (inputWords.length >= targetWords.length &&
       target.length > 0 &&
       inputWords.length > 0 &&
-      inputWords[inputWords.length - 1].endsWith("."))
-    ) {
+      inputWords[inputWords.length - 1][(inputWords[inputWords.length - 1]).length - 1] == targetWords[targetWords.length - 1][(targetWords[targetWords.length - 1]).length - 1] //Check if the last character of the last word matches
+    ))
+    {
       setShowScoreboard(true);
+
     }
+
+
     // Calculate stats
     const correctChars = input
       .split("")
@@ -78,9 +85,11 @@ const Sentence = () => {
     setWpm(0)
     setAccuracy(100)
     setErrors(0)
+    setCurrentWordIdx(0)
     setShowScoreboard(false)
     setRestartKey(prev => prev + 1)
     setTarget(getRandomSentence())
+
   }
 
   // Render logic for coloring only typed chars in each word
@@ -122,6 +131,10 @@ const Sentence = () => {
     })
   }
 
+  // For debug, REMOVE IN PRODUCTION
+  const inputWords = input.trim().split(/\s+/).filter(Boolean);
+  const targetWords = target.trim().split(/\s+/).filter(Boolean);
+
   return (
     <div key={restartKey} className="relative w-full max-w-5xl mx-auto mt-8">
 
@@ -136,6 +149,7 @@ const Sentence = () => {
             style={{ minHeight: 80 }}
             spellCheck={false}
             autoFocus
+            disabled={showScoreboard}
           />
         </div>
         <div
@@ -176,6 +190,18 @@ const Sentence = () => {
           />
         ) : null}
       </div>
+
+      {/* Debug Button */}
+      <button className="bg-blue-600 z-50" onClick={() => {
+        console.log(inputWords)
+        console.log(inputWords.length > targetWords.length)
+        console.log(inputWords.length >= targetWords.length)
+        console.log(target.length > 0)
+        console.log(inputWords.length > 0)
+        console.log(inputWords[inputWords.length - 1] == targetWords[targetWords.length - 1])
+        console.log(inputWords[inputWords.length - 1][(inputWords[inputWords.length - 1]).length - 1])
+        console.log(targetWords[targetWords.length - 1][(targetWords[targetWords.length - 1]).length - 1])
+      }}>Debug</button>
     </div>
   )
 }
