@@ -65,7 +65,7 @@ const Sentence = () => {
     // Update current word index
     setCurrentWordIdx(input.split(/\s+/).length - 1)
 
-  }, [input, target, startTime, navigate])
+  }, [input, target, startTime])
 
   // Focus textarea on mount
   useEffect(() => {
@@ -136,7 +136,7 @@ const Sentence = () => {
       </div>
 
       {/* Debug Button */}
-      <button className="bg-blue-600 z-50" onClick={() => {
+      <button className="absolute bg-blue-600 z-50" onClick={() => {
         console.log(inputWords)
         console.log(inputWords.length > targetWords.length)
         console.log(inputWords.length >= targetWords.length)
