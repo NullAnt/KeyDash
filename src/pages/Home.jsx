@@ -20,14 +20,14 @@ const Home = () => {
       <h1>Home Page</h1>
     </section>
 
+
+    {/* Mode Selector */}
     <div className='flex flex-row'>
-      {modes.map(mode => (
-        <ModesButton key={mode} onClick={() => setSelectedMode(mode)}>
-          {mode}
-        </ModesButton>
-      ))}
+      <ModesButton key={Sentence} onClick={() => setSelectedMode("Sentence")}>Sentence</ModesButton>
+      <ModesButton key={Timed} onClick={() => setSelectedMode("Timed")}>Timed</ModesButton>
     </div>
 
+    {/* Load the selected mode: */}
     <div>
       {ModeComponent}
     </div>
