@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react"
 import sentenceData from "../assets/english/sentence.json"
 import { useNavigate } from "react-router-dom"
+import ScoreBoard from "../components/ScoreBoard"
 
 const getRandomSentence = () => {
   const arr = sentenceData.sentence
@@ -16,6 +17,8 @@ const Sentence = () => {
   const [errors, setErrors] = useState(0)
   const textareaRef = useRef(null)
   const navigate = useNavigate()
+  const [showScoreboard, setShowScoreboard] = useState(false)
+  const [restartKey, setRestartKey] = useState(0)
 
   // Track current word index for highlighting
   const [currentWordIdx, setCurrentWordIdx] = useState(0)
@@ -26,9 +29,13 @@ const Sentence = () => {
 
   useEffect(() => {
     if (input.length === 1 && !startTime) setStartTime(Date.now())
-    // Navigate if word count matches or exceeds and last word ends with '.'
+    
+
+    // Split words to remove leading and trailing spaces, return a list of words and filter out empty strings
     const inputWords = input.trim().split(/\s+/).filter(Boolean)
     const targetWords = target.trim().split(/\s+/).filter(Boolean)
+
+    // If input has more words than target, or if input matches target and ends with a period, display scoreboard
     if (
       (inputWords.length > targetWords.length) ||
       (inputWords.length >= targetWords.length &&
@@ -36,7 +43,7 @@ const Sentence = () => {
       inputWords.length > 0 &&
       inputWords[inputWords.length - 1].endsWith("."))
     ) {
-      setTimeout(() => navigate("/contact"), 500)
+      setShowScoreboard(true);
     }
     // Calculate stats
     const correctChars = input
@@ -51,6 +58,7 @@ const Sentence = () => {
 
     // Update current word index
     setCurrentWordIdx(input.split(/\s+/).length - 1)
+
   }, [input, target, startTime, navigate])
 
   // Focus textarea on mount
@@ -61,6 +69,18 @@ const Sentence = () => {
   const handleInput = (e) => {
     // Move to next word on spacebar (allow input to continue)
     setInput(e.target.value)
+  }
+
+  // Add a restart handler
+  const handleRestart = () => {
+    setInput("")
+    setStartTime(null)
+    setWpm(0)
+    setAccuracy(100)
+    setErrors(0)
+    setShowScoreboard(false)
+    setRestartKey(prev => prev + 1)
+    setTarget(getRandomSentence())
   }
 
   // Render logic for coloring only typed chars in each word
@@ -103,7 +123,7 @@ const Sentence = () => {
   }
 
   return (
-    <div className="relative w-full max-w-5xl mx-auto mt-8">
+    <div key={restartKey} className="relative w-full max-w-5xl mx-auto mt-8">
 
       {/* container for The text area */}
       <div className="relative w-full p-4 break-words overflow-hidden">
@@ -127,6 +147,8 @@ const Sentence = () => {
         </div>
       </div>
 
+
+      {/* Stats */}
       <div className="mt-6 flex gap-8 text-lg">
         <div>
           WPM:{" "}
@@ -139,6 +161,20 @@ const Sentence = () => {
         <div>
           Errors: <span className="font-bold">{errors}</span>
         </div>
+      </div>
+
+
+      {/* Scoreboard */}
+      <div>
+        {showScoreboard ? (
+          <ScoreBoard
+            wpm={wpm}
+            accuracy={accuracy}
+            errors={errors}
+            mode="Sentence"
+            onRestart={handleRestart}
+          />
+        ) : null}
       </div>
     </div>
   )
