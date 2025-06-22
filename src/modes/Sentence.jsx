@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react"
 import sentenceData from "../assets/english/sentence.json"
-import { useNavigate } from "react-router-dom"
 import ScoreBoard from "../components/ScoreBoard"
+import TextContainer from "../components/TextContainer"
 
 const getRandomSentence = () => {
   const arr = sentenceData.sentence
@@ -16,7 +16,6 @@ const Sentence = () => {
   const [accuracy, setAccuracy] = useState(100)
   const [errors, setErrors] = useState(0)
   const textareaRef = useRef(null)
-  const navigate = useNavigate()
   const [showScoreboard, setShowScoreboard] = useState(false)
   const [restartKey, setRestartKey] = useState(0)
 
@@ -92,44 +91,6 @@ const Sentence = () => {
 
   }
 
-  // Render logic for coloring only typed chars in each word
-  const renderColoredText = () => {
-    const targetWords = target.split(" ")
-    const inputWords = input.split(" ")
-    return targetWords.map((word, wIdx) => {
-      const inputWord = inputWords[wIdx] || ""
-      return (
-        <span
-          key={wIdx}
-          className="mr-2 inline-block align-bottom"
-          style={{ whiteSpace: "pre" }} // Prevent word break
-        >
-          {word.split("").map((char, cIdx) => {
-            if (inputWord.length > cIdx) {
-              return (
-                <span
-                  key={cIdx}
-                  className={
-                    inputWord[cIdx] === char
-                      ? "text-green-600"
-                      : "text-red-600"
-                  }
-                >
-                  {char}
-                </span>
-              )
-            } else {
-              return (
-                <span key={cIdx} className="">
-                  {char}
-                </span>
-              )
-            }
-          })}
-        </span>
-      )
-    })
-  }
 
   // For debug, REMOVE IN PRODUCTION
   const inputWords = input.trim().split(/\s+/).filter(Boolean);
@@ -139,28 +100,11 @@ const Sentence = () => {
     <div key={restartKey} className="relative w-full max-w-5xl mx-auto mt-8">
 
       {/* container for The text area */}
-      <div className="relative w-full p-4 break-words overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full opacity-0" style={{ zIndex: 2, minHeight: 80 }}>
-          <textarea
-            ref={textareaRef}
-            value={input}
-            onChange={handleInput}
-            className="w-full h-full resize-none pointer-events-auto"
-            style={{ minHeight: 80 }}
-            spellCheck={false}
-            autoFocus
-            disabled={showScoreboard}
-          />
-        </div>
-        <div
-          className="text-lg font-mono select-none"
-          style={{ position: "relative", zIndex: 1, minHeight: 80, wordBreak: "normal", overflowWrap: "normal" }}
-          onClick={() => textareaRef.current && textareaRef.current.focus()}
-        >
-          {renderColoredText()}
-        </div>
-      </div>
-
+      <TextContainer 
+        textareaRef={textareaRef} input={input} handleInput={handleInput} showScoreboard={showScoreboard} // for textarea tag
+        onTextAreaClick={() => textareaRef.current && textareaRef.current.focus()} // for textarea click 
+        target={target}  // for renderColoredText()
+      />
 
       {/* Stats */}
       <div className="mt-6 flex gap-8 text-lg">
@@ -201,6 +145,7 @@ const Sentence = () => {
         console.log(inputWords[inputWords.length - 1] == targetWords[targetWords.length - 1])
         console.log(inputWords[inputWords.length - 1][(inputWords[inputWords.length - 1]).length - 1])
         console.log(targetWords[targetWords.length - 1][(targetWords[targetWords.length - 1]).length - 1])
+        console.log(textareaRef.current.value)
       }}>Debug</button>
     </div>
   )
