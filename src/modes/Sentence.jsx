@@ -64,6 +64,7 @@ const Sentence = () => {
 
     // Update current word index
     setCurrentWordIdx(input.split(/\s+/).length - 1)
+    textareaRef.current.setSelectionRange(input.length, input.length)
 
   }, [input, target, startTime])
 
@@ -72,10 +73,6 @@ const Sentence = () => {
     textareaRef.current && textareaRef.current.focus()
   }, [target])
 
-  const handleInput = (e) => {
-    // Move to next word on spacebar (allow input to continue)
-    setInput(e.target.value)
-  }
 
   // Add a restart handler
   const handleRestart = () => {
@@ -97,17 +94,17 @@ const Sentence = () => {
   const targetWords = target.trim().split(/\s+/).filter(Boolean);
 
   return (
-    <div key={restartKey} className="relative w-full max-w-5xl mx-auto mt-8">
+    <div key={restartKey} className="relative w-full max-w-7xl mx-auto mt-8">
 
       {/* container for The text area */}
       <TextContainer 
-        textareaRef={textareaRef} input={input} handleInput={handleInput} showScoreboard={showScoreboard} // for textarea tag
+        textareaRef={textareaRef} inputState={[input, setInput]} showScoreboard={showScoreboard} // for textarea tag
         onTextAreaClick={() => textareaRef.current && textareaRef.current.focus()} // for textarea click 
         target={target}  // for renderColoredText()
       />
 
       {/* Stats */}
-      <div className="mt-6 flex gap-8 text-lg">
+      <div className="mt-6 justify-center items-center flex gap-8 text-lg">
         <div>
           WPM:{" "}
           <span className="font-bold">{wpm}</span>
