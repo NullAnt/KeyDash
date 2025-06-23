@@ -32,6 +32,9 @@ const TextContainer = ({
         }
     };
 
+
+    
+
     // Render logic for coloring only typed chars in each word, with custom cursor
     const renderColoredText = () => {
         const chars = target.split("");
