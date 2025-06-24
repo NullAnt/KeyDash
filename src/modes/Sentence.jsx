@@ -21,6 +21,7 @@ const Sentence = () => {
 
   // Track current word index for highlighting
   const [currentWordIdx, setCurrentWordIdx] = useState(0)
+  const [currentCharIdx, setCurrentCharIdx] = useState(0)
 
   useEffect(() => {
     setTarget(getRandomSentence())
@@ -34,38 +35,39 @@ const Sentence = () => {
     const inputWords = input.trim().split(/\s+/).filter(Boolean)
     const targetWords = target.trim().split(/\s+/).filter(Boolean)
 
+    // Stop condition
+    const finished =
+      (input.length > target.length) ||
+      (input.trimEnd().endsWith(".") && input.trim().split(/\s+/).length >= target.trim().split(/\s+/).length);
 
-    
-    // If input has more words than target, or if input matches target and ends with a period, display scoreboard
-    // Completed the text:
-    if (
-      (inputWords.length > targetWords.length) ||
-      (inputWords.length >= targetWords.length &&
-      target.length > 0 &&
-      inputWords.length > 0 &&
-      inputWords[inputWords.length - 1][(inputWords[inputWords.length - 1]).length - 1] == targetWords[targetWords.length - 1][(targetWords[targetWords.length - 1]).length - 1] //Check if the last character of the last word matches
-    ))
-    {
+    if (finished) {
       setShowScoreboard(true);
-
     }
 
-
-    // Calculate stats
-    const correctChars = input
-      .split("")
-      .filter((ch, i) => ch === target[i]).length
-    const totalErrors = input.length - correctChars
-    setErrors(totalErrors)
-    setAccuracy(input.length ? (correctChars / input.length) * 100 : 100)
-    const wordsTyped = input.trim().split(/\s+/).length
-    const elapsed = startTime ? (Date.now() - startTime) / 1000 / 60 : 1
-    setWpm(startTime && input.length ? Math.round(wordsTyped / elapsed) : 0)
-
-    // Update current word index
     setCurrentWordIdx(input.split(/\s+/).length - 1)
     textareaRef.current.setSelectionRange(input.length, input.length)
+    setCurrentCharIdx(input.length)
+  }, [input, target, startTime])
 
+  // Update stats every 500ms, but stop when finished
+  useEffect(() => {
+    if (!startTime) return;
+    const finished =
+      (input.length > target.length) ||
+      (input.trimEnd().endsWith(".") && input.trim().split(/\s+/).length >= target.trim().split(/\s+/).length);
+    if (finished) return; // Stop updating stats
+    const interval = setInterval(() => {
+      const correctChars = input
+        .split("")
+        .filter((ch, i) => ch === target[i]).length
+      const totalErrors = input.length - correctChars
+      setErrors(totalErrors)
+      setAccuracy(input.length ? (correctChars / input.length) * 100 : 100)
+      const wordsTyped = input.trim().split(/\s+/).length
+      const elapsed = startTime ? (Date.now() - startTime) / 1000 / 60 : 1
+      setWpm(startTime && input.length ? Math.round(wordsTyped / elapsed) : 0)
+    }, 500)
+    return () => clearInterval(interval)
   }, [input, target, startTime])
 
   // Focus textarea on mount
@@ -82,6 +84,7 @@ const Sentence = () => {
     setAccuracy(100)
     setErrors(0)
     setCurrentWordIdx(0)
+    setCurrentCharIdx(0)
     setShowScoreboard(false)
     setRestartKey(prev => prev + 1)
     setTarget(getRandomSentence())
@@ -98,9 +101,11 @@ const Sentence = () => {
 
       {/* container for The text area */}
       <TextContainer 
-        textareaRef={textareaRef} inputState={[input, setInput]} showScoreboard={showScoreboard} // for textarea tag
-        onTextAreaClick={() => textareaRef.current && textareaRef.current.focus()} // for textarea click 
-        target={target}  // for renderColoredText()
+        textareaRef={textareaRef}
+        inputState={[input, showScoreboard ? () => {} : setInput]} // prevent input if showScoreboard
+        showScoreboard={showScoreboard}
+        onTextAreaClick={() => textareaRef.current && textareaRef.current.focus()}
+        target={target}
       />
 
       {/* Stats */}
