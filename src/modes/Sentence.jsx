@@ -19,6 +19,9 @@ const Sentence = () => {
   const [showScoreboard, setShowScoreboard] = useState(false)
   const [restartKey, setRestartKey] = useState(0)
 
+  const [currentInput, setCurrentInput] = useState("")
+  const [completedWords, setCompletedWords] = useState([])
+
   // Track current word index for highlighting
   const [currentWordIdx, setCurrentWordIdx] = useState(0)
   const [currentCharIdx, setCurrentCharIdx] = useState(0)
@@ -38,7 +41,9 @@ const Sentence = () => {
     // Stop condition
     const finished =
       (input.length > target.length) ||
-      (input.trimEnd().endsWith(".") && input.trim().split(/\s+/).length >= target.trim().split(/\s+/).length);
+      (input.trimEnd().endsWith(".") && input.trim().split(/\s+/).length >= target.trim().split(/\s+/).length) ||
+      (target && completedWords.length >= targetWords.length && currentInput.length == targetWords[targetWords.length - 1].length)||
+      (completedWords.length > targetWords.length);
 
     if (finished) {
       setShowScoreboard(true);
@@ -85,6 +90,8 @@ const Sentence = () => {
     setErrors(0)
     setCurrentWordIdx(0)
     setCurrentCharIdx(0)
+    setCurrentInput("")
+    setCompletedWords([])
     setShowScoreboard(false)
     setRestartKey(prev => prev + 1)
     setTarget(getRandomSentence())
@@ -106,6 +113,8 @@ const Sentence = () => {
         showScoreboard={showScoreboard}
         onTextAreaClick={() => textareaRef.current && textareaRef.current.focus()}
         target={target}
+        currentInputState={[currentInput, setCurrentInput]}
+        completedWordsState={[completedWords, setCompletedWords]}
       />
 
       {/* Stats */}
@@ -148,6 +157,10 @@ const Sentence = () => {
         console.log(inputWords[inputWords.length - 1][(inputWords[inputWords.length - 1]).length - 1])
         console.log(targetWords[targetWords.length - 1][(targetWords[targetWords.length - 1]).length - 1])
         console.log(textareaRef.current.value)
+        console.log(completedWords)
+
+        textareaRef.current && textareaRef.current.focus()
+
       }}>Debug</button>
     </div>
   )
