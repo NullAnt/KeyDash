@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react"
 import sentenceData from "../assets/english/sentence.json"
 import ScoreBoard from "../components/ScoreBoard"
 import TextContainer from "../components/TextContainer"
+import RealTimeStats from "../components/RealTimeStats"
 
 const getRandomSentence = () => {
   const arr = sentenceData.sentence
@@ -21,6 +22,7 @@ const Sentence = () => {
 
   const [currentInput, setCurrentInput] = useState("")
   const [completedWords, setCompletedWords] = useState([])
+  const [finished, setFinished] = useState(false)
 
   // Track current word index for highlighting
   const [currentWordIdx, setCurrentWordIdx] = useState(0)
@@ -39,11 +41,12 @@ const Sentence = () => {
     const targetWords = target.trim().split(/\s+/).filter(Boolean)
 
     // Stop condition
-    const finished =
+    setFinished(
       (input.length > target.length) ||
       (input.trimEnd().endsWith(".") && input.trim().split(/\s+/).length >= target.trim().split(/\s+/).length) ||
       (target && completedWords.length >= targetWords.length && currentInput.length == targetWords[targetWords.length - 1].length)||
-      (completedWords.length > targetWords.length);
+      (completedWords.length > targetWords.length)
+    );
 
     if (finished) {
       setShowScoreboard(true);
@@ -57,12 +60,10 @@ const Sentence = () => {
   // Update stats every 500ms, but stop when finished
   useEffect(() => {
     if (!startTime) return;
-    const finished =
-      (input.length > target.length) ||
-      (input.trimEnd().endsWith(".") && input.trim().split(/\s+/).length >= target.trim().split(/\s+/).length);
+
     if (finished) return; // Stop updating stats
     const interval = setInterval(() => {
-      const correctChars = input
+      const correctChars = input  
         .split("")
         .filter((ch, i) => ch === target[i]).length
       const totalErrors = input.length - correctChars
@@ -117,21 +118,8 @@ const Sentence = () => {
         completedWordsState={[completedWords, setCompletedWords]}
       />
 
-      {/* Stats */}
-      <div className="mt-6 justify-center items-center flex gap-8 text-lg">
-        <div>
-          WPM:{" "}
-          <span className="font-bold">{wpm}</span>
-        </div>
-        <div>
-          Accuracy:{" "}
-          <span className="font-bold">{accuracy.toFixed(1)}%</span>
-        </div>
-        <div>
-          Errors: <span className="font-bold">{errors}</span>
-        </div>
-      </div>
-
+      {/* Real-time stats */}
+      <RealTimeStats wpm={wpm} accuracy={accuracy} errors={errors} />
 
       {/* Scoreboard */}
       <div>
